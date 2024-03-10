@@ -13006,12 +13006,21 @@ a.purchase-btn {
       text-transform: uppercase; /* Convert text to uppercase */
       /* Option 1: Using Flexbox (Recommended) */
       justify-self: center;  /* Center the button horizontally within the gallery */
+      margin-top:1em
       /* Option 2: Using margin: 0 auto; (Less Flexible) */
       /* position: absolute; 
       bottom: 10px; 
       left: 50%; 
       transform: translateX(-50%); */
     }
+
+.photo-gallery {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
     
 
 
