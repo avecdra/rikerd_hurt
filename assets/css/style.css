@@ -10357,6 +10357,7 @@ Slick Animation For Slider
 /* ---------------------------
 Testimonial Styles 
 ------------------------------*/
+/*
 .rn-testimonial-content .inner {
   padding-bottom: 20px; }
   .rn-testimonial-content .inner p {
@@ -10446,6 +10447,7 @@ Testimonial Styles
 /* ------------------------------
 Testimonial Thumbnail 
 -------------------------------- */
+/*
 ul.testimonial-thumb-wrapper {
   list-style: none;
   padding: 0;
@@ -10515,7 +10517,7 @@ ul.testimonial-thumb-wrapper {
         ul.testimonial-thumb-wrapper li a.active .thumb img {
           transform: none;
           object-fit: cover; } }
-
+*/
 /*-----------------
     Brand Area 
 ------------------*/
