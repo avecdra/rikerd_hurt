@@ -21,7 +21,7 @@ function countUpFromTime(countFrom, id) {
   secs = Math.floor((((timeDifference % (secondsInADay)) % (secondsInAHour)) % (60 * 1000)) / 1000 * 1);
 
   var idEl = document.getElementById(id);
-  idEl.getElementsByClassName('counterDays')[5].innerHTML = days;
+  idEl.getElementsByClassName('counter')[0].innerHTML = days;
 
   clearTimeout(countUpFromTime.interval);
   countUpFromTime.interval = setTimeout(function(){ countUpFromTime(countFrom, id); }, 1000); 
